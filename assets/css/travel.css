@@ -1,0 +1,48 @@
+.about-us{
+    margin-top: 30px;
+}
+
+/*------------------ Breadcrumb styling --------------------*/
+.breadcrumbs
+{
+	background: linear-gradient(rgba(150, 60, 221, 0.1), rgba(17, 17, 69, 0.8)), url('../images/backgrounds/business1.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.breadcrumb-container
+{
+	height: 34vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1.5rem;
+}
+
+.breadcrumb-container .hero-heading
+{
+	font-size: 3rem;
+    color: white;
+}
+/*------------------ Breadcrumb styling --------------------*/
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+/*-------------------------------- Desktop screen styling --------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 789px)
+{
+	/*----------- Breadcrumb styling ----------*/
+	.breadcrumb-container 
+	{
+		height: 50vh;
+	}
+
+
+}
+
